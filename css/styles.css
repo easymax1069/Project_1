@@ -1,0 +1,136 @@
+/* Google Clone CSS */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+#container {
+	width: 580px;
+	margin: 140px auto 0;
+	text-align: center;
+}
+h1#logo {
+	width: 269px;
+	height: 95px;
+	background: url('../images/google.png') top left no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+	margin: 0 auto;
+
+}
+
+input[type="text"] {
+	width: 566px;
+	padding: 7px;
+	margin: 25px 0 18px;
+	border: solid 1px #ccc;
+	font-size: 16px;
+	width: 503px;
+    height: 34px;
+}
+
+input[type="text"] {
+border-color: #aaa;
+}
+
+input[type="submit"] {
+	background: #f2f2f2;
+	color: #757575;
+	border: #ddd;
+	padding: 5px;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 5px;
+
+	height: 36px;
+    line-height: 27px;
+    margin: 11px 4px;
+    min-width: 25%;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+}
+
+small {
+	display: block;
+	margin: 10px 0 0 0;
+	font-size: 12px;
+}
+
+
+a:link, a:visited {
+	color: blue;
+}
+
+header nav ul li {
+	display: inline;
+}
+
+header nav {
+	text-align: right;
+	padding: 20px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+	color: #555;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	background: #eee;
+	padding: 15px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+footer nav ul li {
+	display: inline;
+	padding-right: 15px;
+}
+
+footer nav ul{
+	float: left;
+}
+
+footer nav ul.right-links {
+	float: right;
+	padding-right: 30px;
+}
+
+p small a:link,
+p small a:visited {
+	text-decoration: none;
+	padding: 10px;
+}
+
+p small a:hover {
+	text-decoration: underline;
+}
+
+form div img {
+		width: 5%;
+		vertical-align: middle;
+}
+
+.nigeria-text {
+    color: #4285f4;
+    font:  roboto-regular, arial, sans-serif;
+    left: 103px;
+    position: relative;
+    top: -20px;
+    white-space: nowrap;
+}
