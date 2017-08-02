@@ -12,7 +12,7 @@ body {
 
 #container {
 	width: 580px;
-	margin: 140px auto 0;
+	margin: 120px auto 0;
 	text-align: center;
 }
 h1#logo {
@@ -42,7 +42,7 @@ border-color: #aaa;
 input[type="submit"] {
 	background: #f2f2f2;
 	color: #757575;
-	border: #ddd;
+	border: 0 solid #c6c6c6;
 	padding: 5px;
 	font-family: Arial, sans-serif;
 	font-size: 13px;
@@ -50,13 +50,15 @@ input[type="submit"] {
 	margin: 0 5px;
 
 	height: 36px;
-    line-height: 27px;
-    margin: 11px 4px;
-    min-width: 25%;
+	line-height: 27px;
+	margin: 11px 4px;
+	min-width: 25%;
 }
 
 input[type="submit"]:hover {
 	cursor: pointer;
+	border: 1px solid #c6c6c6;
+	color: black;
 }
 
 small {
@@ -74,6 +76,12 @@ header nav ul li {
 	display: inline;
 }
 
+header nav ul li a img {
+	vertical-align: middle;
+	background-size: 100%;
+	width: 30px;
+}
+
 header nav {
 	text-align: right;
 	padding: 20px;
@@ -88,6 +96,17 @@ nav ul li a:visited {
 
 nav ul li a:hover {
 	text-decoration: underline;
+}
+
+.signIn {
+	background: #4285f4;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	color: #f2f2f2 !important;
+	font-family: arial,sans-serif;
+	text-decoration: none !important;
+	border-radius: 5px;
 }
 
 footer {
@@ -127,10 +146,138 @@ form div img {
 }
 
 .nigeria-text {
-    color: #4285f4;
-    font:  roboto-regular, arial, sans-serif;
-    left: 103px;
-    position: relative;
-    top: -20px;
-    white-space: nowrap;
+	color: #4285f4;
+	font: 16px/16px roboto-regular, arial, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	left: 103px;
+	position: relative;
+	top: -20px;
+	white-space: nowrap;
+}
+
+input[type="text"] {
+	margin: 0;
+	outline: none; 
+	border: 0; 
+	height: 46px;
+	width: 534px;
+}
+
+.text-mic-div {
+	border: solid 1px black;
+	width: 585px;
+	height: 46px;
+	border-color: lightgray;
+	box-shadow: 1px 1px 1px #88886B;
+	margin-top: 10px;
+	margin-bottom: 16px;
+}
+
+.input-group {
+	margin-bottom: 20px;
+}
+
+.text-mic-div:hover {
+	box-shadow: -1px 3px 3px #88886B;
+}
+
+
+@media screen and (max-width: 670px) {
+
+ /* change footer to list */
+
+footer nav ul{
+	float: none;
+	display: block;
+}
+
+footer nav ul.right-links {
+	float: none;
+	display: block;
+}
+
+footer nav ul li {
+	display: block;
+}
+
+input[type="text"] {
+    margin: 0;
+    outline: none;
+    border: 0;
+    height: 43px;
+    width: 395px;
+}
+
+.text-mic-div {
+    border: solid 1px black;
+    width: 435px;
+    height: 43px;
+    border-color: lightgray;
+    box-shadow: 1px 1px 1px #88886B;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    margin-left: 79px;
+}
+
+}
+
+@media screen and (max-width: 523px) {
+
+input[type="text"] {
+    height: 40px;
+    width: 261px;
+}
+
+.text-mic-div {
+
+	width: 298px;
+	height: 40px;
+	margin-left: 54px;
+}
+
+#container {
+	width: 407px;
+	margin: 50px auto 0;
+}
+
+h1#logo {
+	width: 245px;
+	height: 86px;
+}
+
+.nigeria-text {
+	left: 97px;
+
+}
+}
+
+@media screen and (max-width: 523px) {
+
+input[type="text"] {
+    height: 40px;
+    width: 261px;
+}
+
+.text-mic-div {
+
+	width: 298px;
+	height: 40px;
+	margin-left: 54px;
+}
+
+#container {
+	width: 407px;
+	margin: 50px auto 0;
+}
+
+h1#logo {
+	width: 245px;
+	height: 86px;
+}
+
+.nigeria-text {
+	left: 97px;
+
+}
 }
